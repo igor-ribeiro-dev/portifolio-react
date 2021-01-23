@@ -1,29 +1,25 @@
 import React from "react";
-import {JavaIcon, JSIcon, NodeIcons, ReactIcon, TSIcon} from "../../styles";
+import {JSIcon, LaravelIcon, NodeIcons, ReactIcon} from "../../styles";
 
 const MyFocusSection: React.FC = () => {
   return (
     <>
       <ul>
         <li>
-          <TSIcon/>
-          <p>Typescript</p>
+          <LaravelIcon/>
+          <p>Laravel</p>
         </li>
         <li>
           <JSIcon/>
           <p>Javascript</p>
         </li>
         <li>
-          <ReactIcon/>
-          <p>React</p>
-        </li>
-        <li>
           <NodeIcons/>
           <p>NodeJS</p>
         </li>
         <li>
-          <JavaIcon/>
-          <p>Java</p>
+          <ReactIcon/>
+          <p>React</p>
         </li>
       </ul>
     </>
